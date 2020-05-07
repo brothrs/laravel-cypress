@@ -1,5 +1,4 @@
-FROM php:7.3
-LABEL maintainer="Júnior Garcia <itamarjr91@gmail.com>"
+FROM php:7.4
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
